@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <!-- Your additional Logback configuration goes here -->
+    <logger name="org.springframework.data.elasticsearch.client.WIRE" level="trace"/>
+</configuration>

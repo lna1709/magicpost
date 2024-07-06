@@ -1,0 +1,112 @@
+.guest-back-button {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    padding: 10px;
+    background-color: #f19a0e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #d18f0b;
+    }
+}
+
+/* Guest Search Styles */
+.guest-search {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    .guest-heading {
+        color: #333;
+    }
+
+    .guest-search-input {
+        padding: 10px;
+        margin: 10px;
+        width: 60%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .guest-search-button {
+        padding: 10px;
+        background-color: #f19a0e;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #d18f0b;
+        }
+    }
+}
+
+/* Guest Delivery Info Styles */
+.guest-delivery-info {
+    margin-top: 20px;
+
+    .guest-info-item {
+        width: 50%;
+        margin: 10px auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+
+        .guest-label {
+            font-weight: bold;
+        }
+
+        .guest-value {
+            flex-grow: 2;
+            text-align: right;
+        }
+    }
+}
+
+/* Guest Delivery Status Styles */
+.guest-delivery-statuses {
+    margin-top: 20px;
+
+    .guest-subheading {
+        color: #333;
+    }
+
+    .guest-status-item {
+        width: 50%;
+        margin: 10px auto;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #f19a0e;
+        }
+
+        .guest-status-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .guest-status-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5px;
+        }
+    }
+}
+
+/* Additional Styles... (if needed) */

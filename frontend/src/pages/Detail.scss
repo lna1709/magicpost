@@ -1,0 +1,39 @@
+$primary-color: #f19a0e;
+
+.detail {
+    padding: 20px;
+
+    .sender-info,
+    .recipient-info,
+    .status-info {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        transition: background-color 0.3s, box-shadow 0.3s;
+
+        &:hover {
+            background-color: $primary-color; // Đặt màu chủ đạo
+            color: #fff;
+
+            h2 {
+                color: #fff;
+            }
+
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Thêm box-shadow
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 8px;
+
+            strong {
+                font-weight: bold;
+                margin-right: 5px;
+            }
+        }
+    }
+}

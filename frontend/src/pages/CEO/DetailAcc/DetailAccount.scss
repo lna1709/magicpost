@@ -1,0 +1,33 @@
+$primary-color: #f19a0e;
+
+.detail-account {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+
+    h3 {
+        font-size: 1.5rem;
+        color: $primary-color;
+        margin-bottom: 15px;
+    }
+
+    span {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: $primary-color;
+        color: #fff;
+        padding: 8px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+
+        &:hover {
+            background-color: darken($primary-color, 10%);
+        }
+    }
+}

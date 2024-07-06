@@ -1,0 +1,133 @@
+$primary-color: #f19a0e;
+
+.te-create-shipment {
+    h2 {
+        font-size: 1.5rem;
+        color: $primary-color; // Đặt màu chủ đạo
+        margin-bottom: 20px;
+    }
+
+    form {
+        .te-form-personal-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            .te-form-sender,
+            .te-form-receiver {
+                width: 48%;
+
+                h2 {
+                    font-size: 1.3rem;
+                    color: $primary-color;
+                    margin-bottom: 10px;
+                }
+
+                .te-form-box {
+                    display: flex;
+
+                    .te-form-sender-info,
+                    .te-form-receiver-info {
+                        width: 50%;
+
+                        h3 {
+                            font-size: 1.2rem;
+                            color: $primary-color;
+                            margin-bottom: 10px;
+                        }
+
+                        label {
+                            margin-bottom: 5px;
+                        }
+
+                        input,
+                        select {
+                            width: 60%;
+                            padding: 10px;
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                    .te-form-sender-address,
+                    .te-form-receiver-address {
+                        width: 50%;
+
+                        h3 {
+                            font-size: 1.2rem;
+                            color: $primary-color;
+                            margin-bottom: 10px;
+                        }
+
+                        label {
+                            margin-bottom: 5px;
+                        }
+
+                        select {
+                            width: 60%;
+                            padding: 10px;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .te-form-shipment-info {
+            display: flex;
+            justify-content: space-between;
+
+            .te-form-shipment-info-1,
+            .te-form-shipment-info-2 {
+                width: 48%;
+
+                h2 {
+                    font-size: 1.3rem;
+                    color: $primary-color;
+                    margin-bottom: 10px;
+                }
+
+                .te-form-shipment-big-box {
+                    .te-form-shipment-1 {
+                        h4 {
+                            font-size: 1.2rem;
+                            color: $primary-color;
+                            margin-bottom: 10px;
+                        }
+
+                        select,
+                        input {
+                            width: 60%;
+                            padding: 10px;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+
+                .te-confirm-offices-box {
+                    label {
+                        margin-bottom: 5px;
+                    }
+
+                    select {
+                        width: 60%;
+                        padding: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+
+        .te-form-submit {
+            background-color: $primary-color;
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: darken($primary-color, 10%);
+            }
+        }
+    }
+}

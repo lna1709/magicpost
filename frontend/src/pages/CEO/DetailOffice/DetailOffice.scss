@@ -1,0 +1,75 @@
+$primary-color: #f19a0e;
+
+.detail-office {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+
+    h1 {
+        font-size: 2rem;
+        color: $primary-color;
+        margin-bottom: 20px;
+    }
+
+    .detail {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 15px;
+
+        span {
+            display: block;
+            padding: 5px;
+        }
+
+        button {
+            background-color: $primary-color;
+            color: #fff;
+            padding: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: darken($primary-color, 10%);
+            }
+        }
+
+        b {
+            // display: block;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .delivery {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 15px;
+
+        span {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: $primary-color;
+            padding: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: darken($primary-color, 10%);
+            }
+
+            a {
+
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "mappings": {
+    "properties": {
+      "district": {
+        "type": "nested"
+      }
+    }
+  }
+}

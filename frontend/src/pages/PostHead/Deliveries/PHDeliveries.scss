@@ -1,0 +1,23 @@
+$primary-color: #f19a0e;
+
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+
+    button {
+        margin: 0 5px;
+        padding: 10px;
+        cursor: pointer;
+        background-color: $primary-color;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+
+        &:hover {
+            background-color: darken($primary-color, 10%);
+        }
+    }
+}

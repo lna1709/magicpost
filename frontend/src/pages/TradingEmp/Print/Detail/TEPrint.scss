@@ -1,0 +1,19 @@
+$primary-color: #f19a0e;
+
+.te-print {
+
+    button {
+        padding: 10px;
+        cursor: pointer;
+        background-color: $primary-color;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        text-decoration: none;
+
+        &:hover {
+            background-color: darken($primary-color, 10%);
+        }
+    }
+
+}

@@ -1,0 +1,33 @@
+// Home.scss
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .sidebar-search {
+        margin: 20px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .home-buttons {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+
+        .home-button {
+            padding: 10px 20px;
+            background-color: #f19a0e;
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: #e1830b;
+            }
+        }
+    }
+}

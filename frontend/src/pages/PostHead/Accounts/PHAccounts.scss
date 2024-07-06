@@ -1,0 +1,91 @@
+$primary-color: #f19a0e;
+
+.ph-accounts {
+    padding: 20px;
+
+    h1 {
+        font-size: 2rem;
+        color: $primary-color;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            white-space: nowrap; // Tránh cột quá dài bị ngắn dòng
+
+            &.accounts-sort {
+                cursor: pointer;
+            }
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: $primary-color;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            margin-right: 10px;
+            background-color: $primary-color;
+            color: #fff;
+            padding: 8px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: darken($primary-color, 10%);
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: #f5f5f5;
+            }
+        }
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 20px;
+
+        button {
+            background-color: $primary-color;
+            color: #fff;
+            padding: 8px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: darken($primary-color, 10%);
+            }
+        }
+
+        span {
+            font-size: 1.2rem;
+        }
+    }
+}

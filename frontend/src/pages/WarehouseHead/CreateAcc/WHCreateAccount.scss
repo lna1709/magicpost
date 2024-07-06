@@ -1,0 +1,46 @@
+.wh-create-account {
+    h2 {
+        margin-bottom: 40px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        align-items: center;
+
+        input {
+            padding: 5px 10px 5px 20px;
+        }
+
+        select {
+            padding: 6px 10px;
+        }
+
+        input,
+        select {
+            border-radius: 8px;
+        }
+
+        .wh-create-account-box {
+            display: flex;
+            gap: 40px;
+            width: 100%;
+            justify-content: center;
+
+            .wh-create-account-box-1 {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        .wh-create-account-submit {
+            padding: 5px 15px;
+
+            &:hover {
+                background: #d7d7d7;
+            }
+        }
+    }
+}
